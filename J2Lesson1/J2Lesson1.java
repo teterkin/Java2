@@ -6,8 +6,8 @@ import course.*;
 /**
  * Write a description of class J2Lesson1 here.
  *
- * @author Sergey Iryupin
- * @version dated Dec 19, 2017
+ * @author Sergey Iryupin, Alexander Teterkin
+ * @version dated Dec 21, 2017
  * @link https://github.com/
  */
 public class J2Lesson1 {

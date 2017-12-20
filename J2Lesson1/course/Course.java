@@ -1,11 +1,8 @@
 package course;
 
 import animals.Animal;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import team.Team;
 import obstacles.*;
-
-import java.util.Arrays;
 
 public class Course
 {

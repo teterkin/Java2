@@ -1,6 +1,6 @@
 package team;
-import animals.*;
 
+import animals.*;
 import java.util.Arrays;
 
 public class Team
