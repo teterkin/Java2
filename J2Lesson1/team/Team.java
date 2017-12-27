@@ -150,9 +150,7 @@ public class Team
     @Override
     public String toString()
     {
-        return "Team{" +
-                "name='" + name + '\'' +
-                ", members=" + Arrays.toString(members) +
+        return "Team{name=\"" + name + "\", members=" + Arrays.toString(members) +
                 ", done=" + Arrays.toString(done) +
                 '}';
     }

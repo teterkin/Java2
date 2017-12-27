@@ -33,7 +33,7 @@ public class J2Lesson1 {
         course.doIt(team);
         team.getMembersWhoFinishedTheCourse();
         team.getBoomers();
-        // System.out.println(team);
+         System.out.println(team);
 
     }
    
