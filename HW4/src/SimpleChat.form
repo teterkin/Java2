@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SimpleChat">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="20ac9" binding="bottomPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a339c" class="javax.swing.JCheckBox" binding="ai">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="AI"/>
+            </properties>
+          </component>
+          <component id="da3d4" class="javax.swing.JTextField" binding="text">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font swing-font="TextField.font"/>
+              <foreground color="-16777216"/>
+              <text value="Введите текст..."/>
+              <toolTipText value="Введите текст..."/>
+            </properties>
+          </component>
+          <component id="da8ee" class="javax.swing.JButton" binding="button">
+            <constraints border-constraint="East"/>
+            <properties>
+              <contentAreaFilled value="false"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="images/SendButton.PNG"/>
+              <text value=""/>
+              <toolTipText value="Send"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <component id="ccacf" class="javax.swing.JTextArea" binding="textArea">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
